@@ -16,4 +16,4 @@ Contents
    :caption: Reference
    :maxdepth: 1
 
-   api/atoms
+   api/data
