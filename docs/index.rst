@@ -10,4 +10,10 @@ Contents
    :maxdepth: 1
 
    getstarted
-   api
+
+.. toctree::
+   :glob:
+   :caption: Reference
+   :maxdepth: 1
+
+   api/atoms
