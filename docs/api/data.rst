@@ -1,8 +1,4 @@
-Creation
---------
 .. autosummary::
-    :toctree: generated
-    :nosignatures:
-    :template: classtemplate.rst
+   :toctree: generated
 
-    load_dataset
+   atoms
