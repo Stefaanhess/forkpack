@@ -20,7 +20,7 @@ sys.path.insert(0, os.path.abspath('../src/schnetpack'))
 
 extensions = [
         'sphinx.ext.autodoc',
-        ' sphinx.ext.autosummary',
+        'sphinx.ext.autosummary',
         ]
 
 templates_path = ['_templates']
