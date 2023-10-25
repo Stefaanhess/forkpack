@@ -1,3 +1,4 @@
-you can use the ``lumache.get_random_ingredients()`` function:
+.. autosummary::
+   :toctree: atomsdirname
 
-.. autofunction:: atoms.load_dataset
+   atoms.load_dataset
