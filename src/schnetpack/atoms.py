@@ -25,7 +25,6 @@ from ase.db import connect
 logger = logging.getLogger(__name__)
 
 __all__ = [
-    "Data",
     "load_dataset",
 ]
 
@@ -40,26 +39,5 @@ def load_dataset(datapath: str, format, **kwargs):
 
     """
     return 0
-
-
-class Data:
-    """
-    dataset.
-
-    Args:
-        datapath: file path
-    """
-    
-    def __init__(self, datapath):
-    	self.d = datapath
-    
-    
-    def blabla(self):
-    	"""
-    	kadhasfljsfkjsd
-    
-    	"""
-   	return 0
-    
     
     
