@@ -3,7 +3,7 @@ Atoms data
 .. autosummary::
     :toctree: generated
 
-    data.Data
-    data.load_dataset
+    atoms.Data
+    atoms.load_dataset
 
 
