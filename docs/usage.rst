@@ -1,5 +1,5 @@
 .. autosummary::
    :toctree: tocname
 
-   transform.base.kek
+   base.kek
 
