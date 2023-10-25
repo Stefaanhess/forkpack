@@ -1,10 +1,9 @@
 import pytest
 import torch
 import numpy as np
-from schnetpack.data import *
 import os
-import schnetpack.properties as structure
-from schnetpack.data import calculate_stats, AtomsLoader
+import schnetpack as structure
+from schnetpack import calculate_stats, AtomsLoader
 
 
 @pytest.fixture

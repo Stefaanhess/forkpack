@@ -1,5 +1,5 @@
 .. autosummary::
    :toctree: atomsdirname
 
-   atoms.load_dataset
+   data.atoms.load_dataset
 

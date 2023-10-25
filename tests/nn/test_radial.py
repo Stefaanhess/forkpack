@@ -1,6 +1,6 @@
 import torch
 
-from schnetpack.nn.radial import GaussianRBF
+from schnetpack import GaussianRBF
 
 
 def test_smear_gaussian_one_distance():

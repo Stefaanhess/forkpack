@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from schnetpack.nn.cutoff import CosineCutoff, MollifierCutoff
+from schnetpack import CosineCutoff, MollifierCutoff
 
 
 def test_cutoff_cosine():

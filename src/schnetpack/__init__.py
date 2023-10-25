@@ -1,2 +1,1 @@
-from .atoms import *
-
+from schnetpack import data

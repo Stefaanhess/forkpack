@@ -1,8 +1,8 @@
 import torch
 
-from schnetpack.transform import ASENeighborList
-from schnetpack.data.loader import _atoms_collate_fn
-import schnetpack.properties as structure
+from schnetpack import ASENeighborList
+from schnetpack import _atoms_collate_fn
+import schnetpack as structure
 
 
 def test_collate_noenv(single_atom, two_atoms):

@@ -1,12 +1,12 @@
 import pytest
 import torch
 
-import schnetpack.properties as structure
+import schnetpack as structure
 import schnetpack as spk
 import numpy as np
 from ase.neighborlist import neighbor_list
 
-from schnetpack.representation.schnet import SchNet
+from schnetpack import SchNet
 
 # TODO:make proper timing and golden tests
 

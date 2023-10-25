@@ -1,7 +1,6 @@
 import numpy as np
-import torch
 
-from schnetpack.data.loader import _atoms_collate_fn
+from schnetpack import _atoms_collate_fn
 import schnetpack as spk
 
 

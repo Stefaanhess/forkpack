@@ -2,7 +2,7 @@ import os
 import pytest
 import numpy as np
 
-from schnetpack.datasets import QM9, MD17, rMD17
+from schnetpack import QM9, MD17, rMD17
 
 
 @pytest.fixture
