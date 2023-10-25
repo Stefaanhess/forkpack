@@ -7,4 +7,4 @@ for post-processing. The flags `is_postprocessor` and `is_preprocessor` indicate
 may be used. The attribute `mode` of a transform is set automatically to either "pre" or "post".q
 """
 
-#from .base import *
+from .base import *

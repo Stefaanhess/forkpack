@@ -1,5 +1,5 @@
 .. autosummary::
-   :toctree: atomsdirname
+   :toctree: tocname
 
-   data.atoms.load_dataset
+   transform.base.Transform
 
