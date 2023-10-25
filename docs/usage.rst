@@ -1,8 +1,4 @@
-Atoms data
-------------
 .. autosummary::
-    :toctree: generated
+   :toctree: atomsdirname
 
-    atoms.load_dataset
-
-
+   atoms.load_dataset
