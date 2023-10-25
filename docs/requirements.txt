@@ -1,5 +1,7 @@
 sphinx-rtd-theme
 
+PyYAML
+--index-url https://pypi.python.org/simple/
 
 torch>=1.9
 pytorch_lightning>=2.0.0
