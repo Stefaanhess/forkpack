@@ -1,24 +1,9 @@
-schnetpack.data
-===============
-.. currentmodule:: data
-
-
 Atoms data
 ------------
 .. autosummary::
     :toctree: generated
-    :nosignatures:
-    :recursive:
-    :template: classtemplate.rst
 
-    Data
+    data.Data
+    data.load_dataset
 
 
-Creation
---------
-.. autosummary::
-    :toctree: generated
-    :nosignatures:
-    :template: classtemplate.rst
-
-    load_dataset
