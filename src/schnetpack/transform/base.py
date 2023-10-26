@@ -4,7 +4,7 @@ import torch
 import torch.nn as nn
 
 
-__all__ = ["kek", "Lel"]
+__all__ = ["kek", "Lel", "Transform"]
 
 
 def kek(lel):

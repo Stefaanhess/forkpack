@@ -8,3 +8,4 @@ may be used. The attribute `mode` of a transform is set automatically to either 
 """
 
 from .base import *
+from .casting import *

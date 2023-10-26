@@ -1,5 +1,18 @@
+schnetpack.transform
+====================
+.. automodule:: transform
+
+.. currentmodule:: transform
+.. autoclass:: Transform
+
+Casting
+-------
+
 .. autosummary::
-   :toctree: tocname
+    :toctree: generated
+    :nosignatures:
+    :template: classtemplate.rst
 
-   transform.base.kek
-
+    CastMap
+    CastTo32
+    CastTo64
