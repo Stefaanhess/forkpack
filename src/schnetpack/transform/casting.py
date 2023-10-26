@@ -1,9 +1,10 @@
 from typing import Dict
 from typing import Dict, Optional
+from schnetpack.utils import a
 
 import torch
 
-from .base import Transform
+from schnetpack.transform.base import Transform
 
 __all__ = ["CastMap", "CastTo32", "CastTo64"]
 
@@ -31,7 +32,7 @@ class CastMap(Transform):
         for k, v in inputs.items():
             vdtype = str(v.dtype).split(".")[-1]
             if vdtype in self.type_map:
-                inputs[k] = v.to()#dtype=as_dtype(self.type_map[vdtype]))
+                inputs[k] = v#'.to(dtype=as_dtype(self.type_map[vdtype]))
         return inputs
 
 
