@@ -15,13 +15,7 @@ setup(
     author="Kristof T. Schuett, Michael Gastegger, Stefaan Hessmann, Niklas Gebauer, Jonas Lederer",
     url="https://github.com/atomistic-machine-learning/schnetpack",
     packages=find_packages("src"),
-    scripts=[
-        "src/scripts/spkconvert",
-        "src/scripts/spktrain",
-        "src/scripts/spkpredict",
-        "src/scripts/spkmd",
-        "src/scripts/spkdeploy",
-    ],
+    scripts=[],
     package_dir={"": "src"},
     python_requires=">=3.6",
     install_requires=[
